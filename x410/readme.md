@@ -37,6 +37,16 @@
 * GNU Radio support is maintained by Ettus Research™ through GR-UHD, an interface to UHD distributed by GNU Radio
 * [1] The RJ45 port is used for remote management of the device and does not support IQ streaming.
 
+
+### Block Diagrams
+
+Ettus USRP X410 Motherboard Block Diagram
+![x410 block diagram](./imgs/x410_motherboard_block_diagram.png)
+
+Ettus USRP X410 ZBX Block Diagram
+![x410 ZBX_Block_Diagram](./imgs/x410_ZBX_Block_Diagram.png)
+
+
 ### Check connection
 
 ```zsh
@@ -385,3 +395,5 @@ root@ni-x4xx-32DAFAA:~# uhd_config_info --version
 UHD 4.6.0.0-0-g50fa3baa
 root@ni-x4xx-32DAFAA:~#
 ```
+
+### [USRP X410 Specifications](./pdfs/ettus_usrp_x410_specifications_ettus_usrp_x410_specifications_2025-03-06-14-15-03.pdf)
